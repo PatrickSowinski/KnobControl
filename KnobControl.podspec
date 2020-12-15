@@ -11,5 +11,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/PatrickSowinski/KnobControl.git", :tag => "1.0.0" }
   spec.source_files = "KnobControl"
+  spec.swift_version = "5.0" 
 
 end
